@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  font-size: 17px;
+}
+
+header {
+  background-color: #375a7f;
+}
+
+main {
+  min-height: 85vh;
+}
+
+footer {
+  background-color: #375a7f;
+}
+
+.check:active {
+  color: red;
+}
+
+.quizzes-list {
+  border-radius: 3px;
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  margin-bottom: 1.2rem;
+}
+
+.quizzes-list:nth-child {
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  border-bottom: none;
+}
+
+.quizzes-list:last-child {
+  border-bottom: 1px solid #000000;
+}
+
+.check-btn {
+  width: 10rem;
+}
+
+.check-btn:active,
+.check-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.rating span {
+  margin-left: 0.5rem;
+}
+
+.table-sm {
+  margin-bottom: 1.2rem;
+}
+
+.git-link {
+	color: #b3b3cc;
+	margin: auto;
+	margin-left: 0;
+}
+
+.git-link:hover {
+	color: white;
+	text-decoration: none;
+}
